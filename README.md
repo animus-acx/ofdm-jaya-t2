@@ -10,10 +10,12 @@ y x en [0, 1]^16 (f = -C). Algoritmo asignado: JAYA (Rao, 2016). Presupuesto: 3 
 - `busqueda_aleatoria.py`  Línea base: búsqueda aleatoria pura con el mismo presupuesto.
 - `protocolo.py`  Corrida con contador, estadística, tablas y canales Rayleigh.
 - `validacion.py`  Validación V1 (water-filling), V2 (KKT) y V3 (SNR, Rayleigh, dimensión).
+- `pruebas.py`  Pruebas de funcionalidad (modelo, water-filling, JAYA, protocolo) y traza manual de una generación de JAYA.
 - `main.py`  Ejecuta todo el protocolo y la validación y guarda figuras (PNG), tablas (CSV) y `resultados.json` en `resultados/`.
 
 ## Cómo reproducir todos los resultados
     pip install numpy scipy matplotlib
+    python pruebas.py   # verifica el funcionamiento (debe terminar con TODAS LAS PRUEBAS PASARON)
     python main.py
 
 Semillas: 1 a 30 para JAYA, búsqueda aleatoria y sensibilidad; los canales Rayleigh usan las
