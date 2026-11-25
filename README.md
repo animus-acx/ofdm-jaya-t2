@@ -1,4 +1,4 @@
-# Trabajo aplicado T2 – Asignación de potencia en subportadoras OFDM con JAYA
+# T2 – Asignación de potencia en subportadoras OFDM con JAYA
 
 Problema: 16 subportadoras, P = 1 W, sigma² = 0.1 W; se maximiza la capacidad
 C(p) = sum log2(1 + g_i p_i / sigma²) con el operador de reparación p_i = P x_i / sum x_j
